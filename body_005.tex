@@ -1,0 +1,92 @@
+\section{Introduction}
+
+ This paper will describe the final as build configuration of the telescope as well as lessons learned along the way.  I would call it the story of the construction of an automated 8.4m telescope.
+\begin{itemize}
+ \item  What is Rubin Observatory? 8.4m telescope in construction  that will deliver a "movie" of the sudden sky
+ \item Wide Fast Deep requirement of the LSST survey
+ \item  What are the T\&S subsystems
+\end{itemize}
+
+This paper will describe the final design of theVera C. Rubin Observatory Symoni telescope. It will for instance be useful to people who want to propose a new instrument or people who want to build a second wield field of view large telescope. 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Location selection}
+\begin{itemize}
+\item Explain here the final characteristics of the location of the telescope. I might have to dig up in old SPIE papers but I think it might be interesting to put it here
+\item Construction difficulties and remediations such as the swimming pool, the weather delays
+\item Continue with the history of the construction. We will need help from Jeff B, potentially Bill G., Victor....
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Summit Facilities} 
+Details here briefly the layout and also all the interesting rooms (electrical lab, clean room, white room, huge space for the coating chamber, utility room....)
+Not sure if I should leave it here or at the end since it does use information that will be described in other sections. 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Optics}
+\subsection{Optical design}
+We will start with describing the optical design that is required to provide a field of view of 3.5 degrees.
+\begin{itemize}
+\item Paul Baker 3 mirror system
+\item M1M3, thickness, actuators, thermal system, hardpoints.....
+\item M2, thickness, actuators, thermal system......
+\end{itemize}
+
+\subsection{Alignment}
+We will describe in this section the plan for aligning the optics on a daily basis. This includes the laser tracker system included in the M1M3 mirror system that will provide feedback to the provided hexapods (M2 and Cam)
+
+\subsection{Active Optics}
+This section will only give a very quick summary of the active optics, both open and closed loop. There are also potentially 3 papers planned on the subject as well as a performance summary section in the T\&S performance paper. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Dome}
+Explain here the final design summary. 
+\begin{itemize}
+\item Shutter (allowing the required Field of View as well as enough sky baffle)
+\item Wind screen
+\item Rotation control, crawling algorithm
+\item Slip ring
+\item others
+\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{TMA}
+In this section we will discuss the compact design due to the optical design explained before. 
+We will also give a summary of the way we achieve the slew and settle needed for the cadence (absolute pointing requirement)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Coating Plant}
+Describe here the plan to recoat every 2 years (baseline)
+\begin{itemize}
+\item Washing station
+\item Coating chamber (upper and lower vessel)
+\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Calibration}
+Discuss the requirements on the flat field uniformity that led to the need of two elements to create the calibration product
+\begin{itemize}
+\item Flat Screen: traditional screen illuminated from a tunable white light located at the center of the screen. 
+\item CBP: pencil beam sent through the optics to allow for more accurate relative measurement of the throughput and therefore allow to back out a more accurate flat field. 
+\end{itemize}
+We can also describe the alignment process considering that the dome positioning is not accurate enough to provide the required alignment between the screen and the optics %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Environmental Awareness System}
+List here all the different components that the telescope will offer. (HVAC, Temperature sensors, accelerometers, dome seeing monitors, cameras and microphones...)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Software}
+\subsection{Software Architecture}
+This section will be limited to give a summary of the architecture of the software of the observatory. We will describe the interface to the camera and DM but won't go into details. We will talk about the scriptqueue, SAL, the Controllable SAL components.... There is a paper for this so stay high level.\\
+\subsection{Visualisation}
+We can put some graphs here and talk about the different alarm and information offered
+\subsection{Global Interlock system?}
+\subsection{Others?}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Management}
+\subsection{Structure and lessons learned}
+I wonder if we could describe here the management design specific to T\&S and how we changed over the different transitions (design to vendor provided components to construction and integration on site...). Some sort of lessons learned: what worked and what didn't? It's hard to write.... \\
+
+\subsection{Safety}
+In this section we should also discuss safety procedure during construction. 
+\subsection{Documentation}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Conclusions} 
